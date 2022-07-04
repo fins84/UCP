@@ -1,0 +1,25 @@
+Psuedo:
+
+Get metadata
+
+char Array[columns][rows] = parse meta data into this for each coordinates
+current position = [...][...]
+
+if current position != end goal
+    if(argv = 0)
+        print Array
+    end if
+
+    else
+        print map + or - arv steps from current position
+    end else
+
+    move = get user input (w,a,s,d)
+
+    if tile at move is empty
+        update current position and array position
+    else
+        do nothing
+    end
+else
+    print "congratz you did it"
